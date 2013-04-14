@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66136907171A569C00F5EE7D /* Detail1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66136906171A569C00F5EE7D /* Detail1ViewController.m */; };
+		66136909171A56BE00F5EE7D /* Detail1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66136908171A56BE00F5EE7D /* Detail1ViewController.xib */; };
+		6645E40A1719C3E3003296DC /* AleksandarKolarov.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6645E3CD1719C3E3003296DC /* AleksandarKolarov.jpeg */; };
+		6645E40B1719C3E3003296DC /* Arsenal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6645E3CE1719C3E3003296DC /* Arsenal.jpg */; };
+		6645E40C1719C3E3003296DC /* AshleyCole.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6645E3CF1719C3E3003296DC /* AshleyCole.jpeg */; };
+		6645E40D1719C3E3003296DC /* BacarySagna.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6645E3D01719C3E3003296DC /* BacarySagna.jpeg */; };
+		6645E40E1719C3E3003296DC /* Barca.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6645E3D11719C3E3003296DC /* Barca.jpeg */; };
+		6645E40F1719C3E3003296DC /* BranislavIvanovic.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6645E3D21719C3E3003296DC /* BranislavIvanovic.jpeg */; };
+		6645E4101719C3E3003296DC /* CarlosTevez.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6645E3D31719C3E3003296DC /* CarlosTevez.jpeg */; };
+		6645E4111719C3E3003296DC /* Chelsea.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6645E3D41719C3E3003296DC /* Chelsea.jpeg */; };
+		6645E4121719C3E3003296DC /* DanielAgger.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6645E3D51719C3E3003296DC /* DanielAgger.jpeg */; };
+		6645E4131719C3E3003296DC /* DanielSturridge.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6645E3D61719C3E3003296DC /* DanielSturridge.jpeg */; };
+		6645E4141719C3E3003296DC /* DavidDeGea.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6645E3D71719C3E3003296DC /* DavidDeGea.jpeg */; };
+		6645E4151719C3E3003296DC /* DavidLuiz.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6645E3D81719C3E3003296DC /* DavidLuiz.jpeg */; };
+		6645E4161719C3E3003296DC /* DavidSilva.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6645E3D91719C3E3003296DC /* DavidSilva.jpeg */; };
+		6645E4171719C3E3003296DC /* DembaBa.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6645E3DA1719C3E3003296DC /* DembaBa.jpeg */; };
+		6645E4181719C3E3003296DC /* EdenHazard.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6645E3DB1719C3E3003296DC /* EdenHazard.jpeg */; };
+		6645E4191719C3E3003296DC /* FernandoTorres.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6645E3DC1719C3E3003296DC /* FernandoTorres.jpeg */; };
+		6645E41A1719C3E3003296DC /* FrankLampard.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6645E3DD1719C3E3003296DC /* FrankLampard.jpeg */; };
+		6645E41B1719C3E3003296DC /* GlenJohnson.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6645E3DE1719C3E3003296DC /* GlenJohnson.jpeg */; };
+		6645E41C1719C3E3003296DC /* JackWilshere.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6645E3DF1719C3E3003296DC /* JackWilshere.jpeg */; };
+		6645E41D1719C3E3003296DC /* JamesMilner.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6645E3E01719C3E3003296DC /* JamesMilner.jpeg */; };
+		6645E41E1719C3E3003296DC /* JamieCarragher.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6645E3E11719C3E3003296DC /* JamieCarragher.jpeg */; };
+		6645E41F1719C3E3003296DC /* Joe Hart.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6645E3E21719C3E3003296DC /* Joe Hart.jpeg */; };
+		6645E4201719C3E3003296DC /* JoeAllen.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6645E3E31719C3E3003296DC /* JoeAllen.jpeg */; };
+		6645E4211719C3E3003296DC /* JohnTerry.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6645E3E41719C3E3003296DC /* JohnTerry.jpeg */; };
+		6645E4221719C3E3003296DC /* JoleonLescott.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6645E3E51719C3E3003296DC /* JoleonLescott.jpeg */; };
+		6645E4231719C3E3003296DC /* JordanHenderson.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6645E3E61719C3E3003296DC /* JordanHenderson.jpeg */; };
+		6645E4241719C3E3003296DC /* JoseEnrique.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6645E3E71719C3E3003296DC /* JoseEnrique.jpeg */; };
+		6645E4251719C3E3003296DC /* JuanMata.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6645E3E81719C3E3003296DC /* JuanMata.jpeg */; };
+		6645E4261719C3E3003296DC /* LaurentKoscielny.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6645E3E91719C3E3003296DC /* LaurentKoscielny.jpeg */; };
+		6645E4271719C3E3003296DC /* Liverpool.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6645E3EA1719C3E3003296DC /* Liverpool.jpeg */; };
+		6645E4281719C3E3003296DC /* LuisNani.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6645E3EB1719C3E3003296DC /* LuisNani.jpeg */; };
+		6645E4291719C3E3003296DC /* LuisSuarez.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6645E3EC1719C3E3003296DC /* LuisSuarez.jpeg */; };
+		6645E42A1719C3E3003296DC /* LukasPodolski.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6645E3ED1719C3E3003296DC /* LukasPodolski.jpeg */; };
+		6645E42B1719C3E3003296DC /* Manchester Utd.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6645E3EE1719C3E3003296DC /* Manchester Utd.jpg */; };
+		6645E42C1719C3E3003296DC /* MichaelCarrick.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6645E3EF1719C3E3003296DC /* MichaelCarrick.jpeg */; };
+		6645E42D1719C3E3003296DC /* MikelArteta.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6645E3F01719C3E3003296DC /* MikelArteta.jpeg */; };
+		6645E42E1719C3E3003296DC /* NemanjaVidic.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6645E3F11719C3E3003296DC /* NemanjaVidic.jpeg */; };
+		6645E42F1719C3E3003296DC /* OlivierGiroud.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6645E3F21719C3E3003296DC /* OlivierGiroud.jpeg */; };
+		6645E4301719C3E3003296DC /* Oscar.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6645E3F31719C3E3003296DC /* Oscar.jpeg */; };
+		6645E4311719C3E3003296DC /* PabloZabaleta.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6645E3F41719C3E3003296DC /* PabloZabaleta.jpeg */; };
+		6645E4321719C3E3003296DC /* PatriceEvra.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6645E3F51719C3E3003296DC /* PatriceEvra.jpeg */; };
+		6645E4331719C3E3003296DC /* PepeReina.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6645E3F61719C3E3003296DC /* PepeReina.jpeg */; };
+		6645E4341719C3E3003296DC /* PeterCech.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6645E3F71719C3E3003296DC /* PeterCech.jpg */; };
+		6645E4351719C3E3003296DC /* Pokemon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6645E3F81719C3E3003296DC /* Pokemon.jpg */; };
+		6645E4361719C3E3003296DC /* RafaelDaSilva.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6645E3F91719C3E3003296DC /* RafaelDaSilva.jpeg */; };
+		6645E4371719C3E3003296DC /* Real.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6645E3FA1719C3E3003296DC /* Real.jpeg */; };
+		6645E4381719C3E3003296DC /* RobinVanPersie.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6645E3FB1719C3E3003296DC /* RobinVanPersie.jpeg */; };
+		6645E4391719C3E3003296DC /* SamirNasri.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6645E3FC1719C3E3003296DC /* SamirNasri.jpeg */; };
+		6645E43A1719C3E3003296DC /* SantiCazorla.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6645E3FD1719C3E3003296DC /* SantiCazorla.jpeg */; };
+		6645E43B1719C3E3003296DC /* SebastienSquillaci.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6645E3FE1719C3E3003296DC /* SebastienSquillaci.jpeg */; };
+		6645E43C1719C3E3003296DC /* SergioAguero.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6645E3FF1719C3E3003296DC /* SergioAguero.jpeg */; };
+		6645E43D1719C3E3003296DC /* ShinjiKagawa.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6645E4001719C3E3003296DC /* ShinjiKagawa.jpeg */; };
+		6645E43E1719C3E3003296DC /* StevenGerrard.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6645E4011719C3E3003296DC /* StevenGerrard.jpeg */; };
+		6645E43F1719C3E3003296DC /* StewartDowning.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6645E4021719C3E3003296DC /* StewartDowning.jpeg */; };
+		6645E4401719C3E3003296DC /* TheoWalcott.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6645E4031719C3E3003296DC /* TheoWalcott.jpeg */; };
+		6645E4411719C3E3003296DC /* ThomasVermaelen.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6645E4041719C3E3003296DC /* ThomasVermaelen.jpeg */; };
+		6645E4421719C3E3003296DC /* TomCleverley.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6645E4051719C3E3003296DC /* TomCleverley.jpeg */; };
+		6645E4431719C3E3003296DC /* VincentKompany.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6645E4061719C3E3003296DC /* VincentKompany.jpeg */; };
+		6645E4441719C3E3003296DC /* WayneRooney.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6645E4071719C3E3003296DC /* WayneRooney.jpeg */; };
+		6645E4451719C3E3003296DC /* WojciechSzczesny.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6645E4081719C3E3003296DC /* WojciechSzczesny.jpeg */; };
+		6645E4461719C3E3003296DC /* YayaToure.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6645E4091719C3E3003296DC /* YayaToure.jpeg */; };
+		66610CF91718DC6600331CA4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66610CF81718DC6600331CA4 /* UIKit.framework */; };
+		66610CFB1718DC6600331CA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66610CFA1718DC6600331CA4 /* Foundation.framework */; };
+		66610CFD1718DC6600331CA4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66610CFC1718DC6600331CA4 /* CoreGraphics.framework */; };
+		66610D031718DC6700331CA4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 66610D011718DC6700331CA4 /* InfoPlist.strings */; };
+		66610D051718DC6800331CA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66610D041718DC6800331CA4 /* main.m */; };
+		66610D091718DC6900331CA4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66610D081718DC6900331CA4 /* AppDelegate.m */; };
+		66610D0B1718DC6B00331CA4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 66610D0A1718DC6B00331CA4 /* Default.png */; };
+		66610D0D1718DC6B00331CA4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66610D0C1718DC6B00331CA4 /* Default@2x.png */; };
+		66610D0F1718DC6C00331CA4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66610D0E1718DC6C00331CA4 /* Default-568h@2x.png */; };
+		66B31C8E171947F300E68ECC /* Player.plist in Resources */ = {isa = PBXBuildFile; fileRef = 66B31C8D171947F300E68ECC /* Player.plist */; };
+		66FDD1CB1718E8DC00A3FD19 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FDD1CA1718E8DC00A3FD19 /* Player.m */; };
+		66FDD1CE1718EC1D00A3FD19 /* Team.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FDD1CD1718EC1D00A3FD19 /* Team.m */; };
+		66FDD1D21718EE2400A3FD19 /* MainScreenVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FDD1D11718EE2400A3FD19 /* MainScreenVC.m */; };
+		66FDD1D41718EE4200A3FD19 /* MainScreenVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66FDD1D31718EE4200A3FD19 /* MainScreenVC.xib */; };
+		66FDD1D71718EE7400A3FD19 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FDD1D61718EE7400A3FD19 /* DetailViewController.m */; };
+		66FDD1D91718EE9900A3FD19 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66FDD1D81718EE9900A3FD19 /* DetailViewController.xib */; };
+		66FDD1DB1718F12600A3FD19 /* Team.plist in Resources */ = {isa = PBXBuildFile; fileRef = 66FDD1DA1718F12600A3FD19 /* Team.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		66136905171A569C00F5EE7D /* Detail1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Detail1ViewController.h; sourceTree = "<group>"; };
+		66136906171A569C00F5EE7D /* Detail1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Detail1ViewController.m; sourceTree = "<group>"; };
+		66136908171A56BE00F5EE7D /* Detail1ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Detail1ViewController.xib; sourceTree = "<group>"; };
+		6645E3CD1719C3E3003296DC /* AleksandarKolarov.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AleksandarKolarov.jpeg; sourceTree = "<group>"; };
+		6645E3CE1719C3E3003296DC /* Arsenal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Arsenal.jpg; sourceTree = "<group>"; };
+		6645E3CF1719C3E3003296DC /* AshleyCole.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AshleyCole.jpeg; sourceTree = "<group>"; };
+		6645E3D01719C3E3003296DC /* BacarySagna.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BacarySagna.jpeg; sourceTree = "<group>"; };
+		6645E3D11719C3E3003296DC /* Barca.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Barca.jpeg; sourceTree = "<group>"; };
+		6645E3D21719C3E3003296DC /* BranislavIvanovic.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BranislavIvanovic.jpeg; sourceTree = "<group>"; };
+		6645E3D31719C3E3003296DC /* CarlosTevez.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CarlosTevez.jpeg; sourceTree = "<group>"; };
+		6645E3D41719C3E3003296DC /* Chelsea.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Chelsea.jpeg; sourceTree = "<group>"; };
+		6645E3D51719C3E3003296DC /* DanielAgger.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DanielAgger.jpeg; sourceTree = "<group>"; };
+		6645E3D61719C3E3003296DC /* DanielSturridge.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DanielSturridge.jpeg; sourceTree = "<group>"; };
+		6645E3D71719C3E3003296DC /* DavidDeGea.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DavidDeGea.jpeg; sourceTree = "<group>"; };
+		6645E3D81719C3E3003296DC /* DavidLuiz.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DavidLuiz.jpeg; sourceTree = "<group>"; };
+		6645E3D91719C3E3003296DC /* DavidSilva.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DavidSilva.jpeg; sourceTree = "<group>"; };
+		6645E3DA1719C3E3003296DC /* DembaBa.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DembaBa.jpeg; sourceTree = "<group>"; };
+		6645E3DB1719C3E3003296DC /* EdenHazard.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = EdenHazard.jpeg; sourceTree = "<group>"; };
+		6645E3DC1719C3E3003296DC /* FernandoTorres.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FernandoTorres.jpeg; sourceTree = "<group>"; };
+		6645E3DD1719C3E3003296DC /* FrankLampard.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FrankLampard.jpeg; sourceTree = "<group>"; };
+		6645E3DE1719C3E3003296DC /* GlenJohnson.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GlenJohnson.jpeg; sourceTree = "<group>"; };
+		6645E3DF1719C3E3003296DC /* JackWilshere.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = JackWilshere.jpeg; sourceTree = "<group>"; };
+		6645E3E01719C3E3003296DC /* JamesMilner.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = JamesMilner.jpeg; sourceTree = "<group>"; };
+		6645E3E11719C3E3003296DC /* JamieCarragher.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = JamieCarragher.jpeg; sourceTree = "<group>"; };
+		6645E3E21719C3E3003296DC /* Joe Hart.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Joe Hart.jpeg"; sourceTree = "<group>"; };
+		6645E3E31719C3E3003296DC /* JoeAllen.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = JoeAllen.jpeg; sourceTree = "<group>"; };
+		6645E3E41719C3E3003296DC /* JohnTerry.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = JohnTerry.jpeg; sourceTree = "<group>"; };
+		6645E3E51719C3E3003296DC /* JoleonLescott.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = JoleonLescott.jpeg; sourceTree = "<group>"; };
+		6645E3E61719C3E3003296DC /* JordanHenderson.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = JordanHenderson.jpeg; sourceTree = "<group>"; };
+		6645E3E71719C3E3003296DC /* JoseEnrique.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = JoseEnrique.jpeg; sourceTree = "<group>"; };
+		6645E3E81719C3E3003296DC /* JuanMata.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = JuanMata.jpeg; sourceTree = "<group>"; };
+		6645E3E91719C3E3003296DC /* LaurentKoscielny.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LaurentKoscielny.jpeg; sourceTree = "<group>"; };
+		6645E3EA1719C3E3003296DC /* Liverpool.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Liverpool.jpeg; sourceTree = "<group>"; };
+		6645E3EB1719C3E3003296DC /* LuisNani.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LuisNani.jpeg; sourceTree = "<group>"; };
+		6645E3EC1719C3E3003296DC /* LuisSuarez.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LuisSuarez.jpeg; sourceTree = "<group>"; };
+		6645E3ED1719C3E3003296DC /* LukasPodolski.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LukasPodolski.jpeg; sourceTree = "<group>"; };
+		6645E3EE1719C3E3003296DC /* Manchester Utd.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Manchester Utd.jpg"; sourceTree = "<group>"; };
+		6645E3EF1719C3E3003296DC /* MichaelCarrick.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MichaelCarrick.jpeg; sourceTree = "<group>"; };
+		6645E3F01719C3E3003296DC /* MikelArteta.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MikelArteta.jpeg; sourceTree = "<group>"; };
+		6645E3F11719C3E3003296DC /* NemanjaVidic.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = NemanjaVidic.jpeg; sourceTree = "<group>"; };
+		6645E3F21719C3E3003296DC /* OlivierGiroud.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = OlivierGiroud.jpeg; sourceTree = "<group>"; };
+		6645E3F31719C3E3003296DC /* Oscar.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Oscar.jpeg; sourceTree = "<group>"; };
+		6645E3F41719C3E3003296DC /* PabloZabaleta.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PabloZabaleta.jpeg; sourceTree = "<group>"; };
+		6645E3F51719C3E3003296DC /* PatriceEvra.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PatriceEvra.jpeg; sourceTree = "<group>"; };
+		6645E3F61719C3E3003296DC /* PepeReina.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PepeReina.jpeg; sourceTree = "<group>"; };
+		6645E3F71719C3E3003296DC /* PeterCech.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PeterCech.jpg; sourceTree = "<group>"; };
+		6645E3F81719C3E3003296DC /* Pokemon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Pokemon.jpg; sourceTree = "<group>"; };
+		6645E3F91719C3E3003296DC /* RafaelDaSilva.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RafaelDaSilva.jpeg; sourceTree = "<group>"; };
+		6645E3FA1719C3E3003296DC /* Real.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Real.jpeg; sourceTree = "<group>"; };
+		6645E3FB1719C3E3003296DC /* RobinVanPersie.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RobinVanPersie.jpeg; sourceTree = "<group>"; };
+		6645E3FC1719C3E3003296DC /* SamirNasri.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SamirNasri.jpeg; sourceTree = "<group>"; };
+		6645E3FD1719C3E3003296DC /* SantiCazorla.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SantiCazorla.jpeg; sourceTree = "<group>"; };
+		6645E3FE1719C3E3003296DC /* SebastienSquillaci.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SebastienSquillaci.jpeg; sourceTree = "<group>"; };
+		6645E3FF1719C3E3003296DC /* SergioAguero.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SergioAguero.jpeg; sourceTree = "<group>"; };
+		6645E4001719C3E3003296DC /* ShinjiKagawa.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ShinjiKagawa.jpeg; sourceTree = "<group>"; };
+		6645E4011719C3E3003296DC /* StevenGerrard.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = StevenGerrard.jpeg; sourceTree = "<group>"; };
+		6645E4021719C3E3003296DC /* StewartDowning.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = StewartDowning.jpeg; sourceTree = "<group>"; };
+		6645E4031719C3E3003296DC /* TheoWalcott.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TheoWalcott.jpeg; sourceTree = "<group>"; };
+		6645E4041719C3E3003296DC /* ThomasVermaelen.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ThomasVermaelen.jpeg; sourceTree = "<group>"; };
+		6645E4051719C3E3003296DC /* TomCleverley.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TomCleverley.jpeg; sourceTree = "<group>"; };
+		6645E4061719C3E3003296DC /* VincentKompany.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = VincentKompany.jpeg; sourceTree = "<group>"; };
+		6645E4071719C3E3003296DC /* WayneRooney.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WayneRooney.jpeg; sourceTree = "<group>"; };
+		6645E4081719C3E3003296DC /* WojciechSzczesny.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WojciechSzczesny.jpeg; sourceTree = "<group>"; };
+		6645E4091719C3E3003296DC /* YayaToure.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = YayaToure.jpeg; sourceTree = "<group>"; };
+		66610CF51718DC6600331CA4 /* Football.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Football.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66610CF81718DC6600331CA4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		66610CFA1718DC6600331CA4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		66610CFC1718DC6600331CA4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		66610D001718DC6700331CA4 /* Football-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Football-Info.plist"; sourceTree = "<group>"; };
+		66610D021718DC6700331CA4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		66610D041718DC6800331CA4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		66610D061718DC6800331CA4 /* Football-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Football-Prefix.pch"; sourceTree = "<group>"; };
+		66610D071718DC6900331CA4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		66610D081718DC6900331CA4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		66610D0A1718DC6B00331CA4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		66610D0C1718DC6B00331CA4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		66610D0E1718DC6C00331CA4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		66B31C8D171947F300E68ECC /* Player.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Player.plist; sourceTree = "<group>"; };
+		66FDD1C91718E8DC00A3FD19 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		66FDD1CA1718E8DC00A3FD19 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		66FDD1CC1718EC1D00A3FD19 /* Team.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Team.h; sourceTree = "<group>"; };
+		66FDD1CD1718EC1D00A3FD19 /* Team.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Team.m; sourceTree = "<group>"; };
+		66FDD1D01718EE2400A3FD19 /* MainScreenVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScreenVC.h; sourceTree = "<group>"; };
+		66FDD1D11718EE2400A3FD19 /* MainScreenVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainScreenVC.m; sourceTree = "<group>"; };
+		66FDD1D31718EE4200A3FD19 /* MainScreenVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainScreenVC.xib; sourceTree = "<group>"; };
+		66FDD1D51718EE7400A3FD19 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		66FDD1D61718EE7400A3FD19 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		66FDD1D81718EE9900A3FD19 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		66FDD1DA1718F12600A3FD19 /* Team.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Team.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66610CF21718DC6600331CA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66610CF91718DC6600331CA4 /* UIKit.framework in Frameworks */,
+				66610CFB1718DC6600331CA4 /* Foundation.framework in Frameworks */,
+				66610CFD1718DC6600331CA4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6645E3CC1719C3E3003296DC /* hinhdoibong */ = {
+			isa = PBXGroup;
+			children = (
+				6645E3CD1719C3E3003296DC /* AleksandarKolarov.jpeg */,
+				6645E3CE1719C3E3003296DC /* Arsenal.jpg */,
+				6645E3CF1719C3E3003296DC /* AshleyCole.jpeg */,
+				6645E3D01719C3E3003296DC /* BacarySagna.jpeg */,
+				6645E3D11719C3E3003296DC /* Barca.jpeg */,
+				6645E3D21719C3E3003296DC /* BranislavIvanovic.jpeg */,
+				6645E3D31719C3E3003296DC /* CarlosTevez.jpeg */,
+				6645E3D41719C3E3003296DC /* Chelsea.jpeg */,
+				6645E3D51719C3E3003296DC /* DanielAgger.jpeg */,
+				6645E3D61719C3E3003296DC /* DanielSturridge.jpeg */,
+				6645E3D71719C3E3003296DC /* DavidDeGea.jpeg */,
+				6645E3D81719C3E3003296DC /* DavidLuiz.jpeg */,
+				6645E3D91719C3E3003296DC /* DavidSilva.jpeg */,
+				6645E3DA1719C3E3003296DC /* DembaBa.jpeg */,
+				6645E3DB1719C3E3003296DC /* EdenHazard.jpeg */,
+				6645E3DC1719C3E3003296DC /* FernandoTorres.jpeg */,
+				6645E3DD1719C3E3003296DC /* FrankLampard.jpeg */,
+				6645E3DE1719C3E3003296DC /* GlenJohnson.jpeg */,
+				6645E3DF1719C3E3003296DC /* JackWilshere.jpeg */,
+				6645E3E01719C3E3003296DC /* JamesMilner.jpeg */,
+				6645E3E11719C3E3003296DC /* JamieCarragher.jpeg */,
+				6645E3E21719C3E3003296DC /* Joe Hart.jpeg */,
+				6645E3E31719C3E3003296DC /* JoeAllen.jpeg */,
+				6645E3E41719C3E3003296DC /* JohnTerry.jpeg */,
+				6645E3E51719C3E3003296DC /* JoleonLescott.jpeg */,
+				6645E3E61719C3E3003296DC /* JordanHenderson.jpeg */,
+				6645E3E71719C3E3003296DC /* JoseEnrique.jpeg */,
+				6645E3E81719C3E3003296DC /* JuanMata.jpeg */,
+				6645E3E91719C3E3003296DC /* LaurentKoscielny.jpeg */,
+				6645E3EA1719C3E3003296DC /* Liverpool.jpeg */,
+				6645E3EB1719C3E3003296DC /* LuisNani.jpeg */,
+				6645E3EC1719C3E3003296DC /* LuisSuarez.jpeg */,
+				6645E3ED1719C3E3003296DC /* LukasPodolski.jpeg */,
+				6645E3EE1719C3E3003296DC /* Manchester Utd.jpg */,
+				6645E3EF1719C3E3003296DC /* MichaelCarrick.jpeg */,
+				6645E3F01719C3E3003296DC /* MikelArteta.jpeg */,
+				6645E3F11719C3E3003296DC /* NemanjaVidic.jpeg */,
+				6645E3F21719C3E3003296DC /* OlivierGiroud.jpeg */,
+				6645E3F31719C3E3003296DC /* Oscar.jpeg */,
+				6645E3F41719C3E3003296DC /* PabloZabaleta.jpeg */,
+				6645E3F51719C3E3003296DC /* PatriceEvra.jpeg */,
+				6645E3F61719C3E3003296DC /* PepeReina.jpeg */,
+				6645E3F71719C3E3003296DC /* PeterCech.jpg */,
+				6645E3F81719C3E3003296DC /* Pokemon.jpg */,
+				6645E3F91719C3E3003296DC /* RafaelDaSilva.jpeg */,
+				6645E3FA1719C3E3003296DC /* Real.jpeg */,
+				6645E3FB1719C3E3003296DC /* RobinVanPersie.jpeg */,
+				6645E3FC1719C3E3003296DC /* SamirNasri.jpeg */,
+				6645E3FD1719C3E3003296DC /* SantiCazorla.jpeg */,
+				6645E3FE1719C3E3003296DC /* SebastienSquillaci.jpeg */,
+				6645E3FF1719C3E3003296DC /* SergioAguero.jpeg */,
+				6645E4001719C3E3003296DC /* ShinjiKagawa.jpeg */,
+				6645E4011719C3E3003296DC /* StevenGerrard.jpeg */,
+				6645E4021719C3E3003296DC /* StewartDowning.jpeg */,
+				6645E4031719C3E3003296DC /* TheoWalcott.jpeg */,
+				6645E4041719C3E3003296DC /* ThomasVermaelen.jpeg */,
+				6645E4051719C3E3003296DC /* TomCleverley.jpeg */,
+				6645E4061719C3E3003296DC /* VincentKompany.jpeg */,
+				6645E4071719C3E3003296DC /* WayneRooney.jpeg */,
+				6645E4081719C3E3003296DC /* WojciechSzczesny.jpeg */,
+				6645E4091719C3E3003296DC /* YayaToure.jpeg */,
+			);
+			name = hinhdoibong;
+			path = Football/hinhdoibong;
+			sourceTree = "<group>";
+		};
+		66610CEC1718DC6400331CA4 = {
+			isa = PBXGroup;
+			children = (
+				66FDD1CF1718EDB000A3FD19 /* Picture */,
+				66FDD1C81718E89C00A3FD19 /* classes */,
+				66FDD1C71718E60300A3FD19 /* Controller */,
+				66610CFE1718DC6600331CA4 /* Football */,
+				66610CF71718DC6600331CA4 /* Frameworks */,
+				66610CF61718DC6600331CA4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66610CF61718DC6600331CA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66610CF51718DC6600331CA4 /* Football.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66610CF71718DC6600331CA4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66610CF81718DC6600331CA4 /* UIKit.framework */,
+				66610CFA1718DC6600331CA4 /* Foundation.framework */,
+				66610CFC1718DC6600331CA4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		66610CFE1718DC6600331CA4 /* Football */ = {
+			isa = PBXGroup;
+			children = (
+				66610D071718DC6900331CA4 /* AppDelegate.h */,
+				66610D081718DC6900331CA4 /* AppDelegate.m */,
+				66610CFF1718DC6600331CA4 /* Supporting Files */,
+			);
+			path = Football;
+			sourceTree = "<group>";
+		};
+		66610CFF1718DC6600331CA4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				66B31C8D171947F300E68ECC /* Player.plist */,
+				66FDD1DA1718F12600A3FD19 /* Team.plist */,
+				66610D001718DC6700331CA4 /* Football-Info.plist */,
+				66610D011718DC6700331CA4 /* InfoPlist.strings */,
+				66610D041718DC6800331CA4 /* main.m */,
+				66610D061718DC6800331CA4 /* Football-Prefix.pch */,
+				66610D0A1718DC6B00331CA4 /* Default.png */,
+				66610D0C1718DC6B00331CA4 /* Default@2x.png */,
+				66610D0E1718DC6C00331CA4 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		66FDD1C71718E60300A3FD19 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				66FDD1D01718EE2400A3FD19 /* MainScreenVC.h */,
+				66FDD1D11718EE2400A3FD19 /* MainScreenVC.m */,
+				66FDD1D31718EE4200A3FD19 /* MainScreenVC.xib */,
+				66FDD1D51718EE7400A3FD19 /* DetailViewController.h */,
+				66FDD1D61718EE7400A3FD19 /* DetailViewController.m */,
+				66FDD1D81718EE9900A3FD19 /* DetailViewController.xib */,
+				66136905171A569C00F5EE7D /* Detail1ViewController.h */,
+				66136906171A569C00F5EE7D /* Detail1ViewController.m */,
+				66136908171A56BE00F5EE7D /* Detail1ViewController.xib */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		66FDD1C81718E89C00A3FD19 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				66FDD1C91718E8DC00A3FD19 /* Player.h */,
+				66FDD1CA1718E8DC00A3FD19 /* Player.m */,
+				66FDD1CC1718EC1D00A3FD19 /* Team.h */,
+				66FDD1CD1718EC1D00A3FD19 /* Team.m */,
+			);
+			name = classes;
+			sourceTree = "<group>";
+		};
+		66FDD1CF1718EDB000A3FD19 /* Picture */ = {
+			isa = PBXGroup;
+			children = (
+				6645E3CC1719C3E3003296DC /* hinhdoibong */,
+			);
+			name = Picture;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66610CF41718DC6600331CA4 /* Football */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66610D181718DC7000331CA4 /* Build configuration list for PBXNativeTarget "Football" */;
+			buildPhases = (
+				66610CF11718DC6600331CA4 /* Sources */,
+				66610CF21718DC6600331CA4 /* Frameworks */,
+				66610CF31718DC6600331CA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Football;
+			productName = Football;
+			productReference = 66610CF51718DC6600331CA4 /* Football.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66610CED1718DC6400331CA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = THANHTUNG;
+			};
+			buildConfigurationList = 66610CF01718DC6500331CA4 /* Build configuration list for PBXProject "Football" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 66610CEC1718DC6400331CA4;
+			productRefGroup = 66610CF61718DC6600331CA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66610CF41718DC6600331CA4 /* Football */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66610CF31718DC6600331CA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66610D031718DC6700331CA4 /* InfoPlist.strings in Resources */,
+				66610D0B1718DC6B00331CA4 /* Default.png in Resources */,
+				66610D0D1718DC6B00331CA4 /* Default@2x.png in Resources */,
+				66610D0F1718DC6C00331CA4 /* Default-568h@2x.png in Resources */,
+				66FDD1D41718EE4200A3FD19 /* MainScreenVC.xib in Resources */,
+				66FDD1D91718EE9900A3FD19 /* DetailViewController.xib in Resources */,
+				66FDD1DB1718F12600A3FD19 /* Team.plist in Resources */,
+				66B31C8E171947F300E68ECC /* Player.plist in Resources */,
+				6645E40A1719C3E3003296DC /* AleksandarKolarov.jpeg in Resources */,
+				6645E40B1719C3E3003296DC /* Arsenal.jpg in Resources */,
+				6645E40C1719C3E3003296DC /* AshleyCole.jpeg in Resources */,
+				6645E40D1719C3E3003296DC /* BacarySagna.jpeg in Resources */,
+				6645E40E1719C3E3003296DC /* Barca.jpeg in Resources */,
+				6645E40F1719C3E3003296DC /* BranislavIvanovic.jpeg in Resources */,
+				6645E4101719C3E3003296DC /* CarlosTevez.jpeg in Resources */,
+				6645E4111719C3E3003296DC /* Chelsea.jpeg in Resources */,
+				6645E4121719C3E3003296DC /* DanielAgger.jpeg in Resources */,
+				6645E4131719C3E3003296DC /* DanielSturridge.jpeg in Resources */,
+				6645E4141719C3E3003296DC /* DavidDeGea.jpeg in Resources */,
+				6645E4151719C3E3003296DC /* DavidLuiz.jpeg in Resources */,
+				6645E4161719C3E3003296DC /* DavidSilva.jpeg in Resources */,
+				6645E4171719C3E3003296DC /* DembaBa.jpeg in Resources */,
+				6645E4181719C3E3003296DC /* EdenHazard.jpeg in Resources */,
+				6645E4191719C3E3003296DC /* FernandoTorres.jpeg in Resources */,
+				6645E41A1719C3E3003296DC /* FrankLampard.jpeg in Resources */,
+				6645E41B1719C3E3003296DC /* GlenJohnson.jpeg in Resources */,
+				6645E41C1719C3E3003296DC /* JackWilshere.jpeg in Resources */,
+				6645E41D1719C3E3003296DC /* JamesMilner.jpeg in Resources */,
+				6645E41E1719C3E3003296DC /* JamieCarragher.jpeg in Resources */,
+				6645E41F1719C3E3003296DC /* Joe Hart.jpeg in Resources */,
+				6645E4201719C3E3003296DC /* JoeAllen.jpeg in Resources */,
+				6645E4211719C3E3003296DC /* JohnTerry.jpeg in Resources */,
+				6645E4221719C3E3003296DC /* JoleonLescott.jpeg in Resources */,
+				6645E4231719C3E3003296DC /* JordanHenderson.jpeg in Resources */,
+				6645E4241719C3E3003296DC /* JoseEnrique.jpeg in Resources */,
+				6645E4251719C3E3003296DC /* JuanMata.jpeg in Resources */,
+				6645E4261719C3E3003296DC /* LaurentKoscielny.jpeg in Resources */,
+				6645E4271719C3E3003296DC /* Liverpool.jpeg in Resources */,
+				6645E4281719C3E3003296DC /* LuisNani.jpeg in Resources */,
+				6645E4291719C3E3003296DC /* LuisSuarez.jpeg in Resources */,
+				6645E42A1719C3E3003296DC /* LukasPodolski.jpeg in Resources */,
+				6645E42B1719C3E3003296DC /* Manchester Utd.jpg in Resources */,
+				6645E42C1719C3E3003296DC /* MichaelCarrick.jpeg in Resources */,
+				6645E42D1719C3E3003296DC /* MikelArteta.jpeg in Resources */,
+				6645E42E1719C3E3003296DC /* NemanjaVidic.jpeg in Resources */,
+				6645E42F1719C3E3003296DC /* OlivierGiroud.jpeg in Resources */,
+				6645E4301719C3E3003296DC /* Oscar.jpeg in Resources */,
+				6645E4311719C3E3003296DC /* PabloZabaleta.jpeg in Resources */,
+				6645E4321719C3E3003296DC /* PatriceEvra.jpeg in Resources */,
+				6645E4331719C3E3003296DC /* PepeReina.jpeg in Resources */,
+				6645E4341719C3E3003296DC /* PeterCech.jpg in Resources */,
+				6645E4351719C3E3003296DC /* Pokemon.jpg in Resources */,
+				6645E4361719C3E3003296DC /* RafaelDaSilva.jpeg in Resources */,
+				6645E4371719C3E3003296DC /* Real.jpeg in Resources */,
+				6645E4381719C3E3003296DC /* RobinVanPersie.jpeg in Resources */,
+				6645E4391719C3E3003296DC /* SamirNasri.jpeg in Resources */,
+				6645E43A1719C3E3003296DC /* SantiCazorla.jpeg in Resources */,
+				6645E43B1719C3E3003296DC /* SebastienSquillaci.jpeg in Resources */,
+				6645E43C1719C3E3003296DC /* SergioAguero.jpeg in Resources */,
+				6645E43D1719C3E3003296DC /* ShinjiKagawa.jpeg in Resources */,
+				6645E43E1719C3E3003296DC /* StevenGerrard.jpeg in Resources */,
+				6645E43F1719C3E3003296DC /* StewartDowning.jpeg in Resources */,
+				6645E4401719C3E3003296DC /* TheoWalcott.jpeg in Resources */,
+				6645E4411719C3E3003296DC /* ThomasVermaelen.jpeg in Resources */,
+				6645E4421719C3E3003296DC /* TomCleverley.jpeg in Resources */,
+				6645E4431719C3E3003296DC /* VincentKompany.jpeg in Resources */,
+				6645E4441719C3E3003296DC /* WayneRooney.jpeg in Resources */,
+				6645E4451719C3E3003296DC /* WojciechSzczesny.jpeg in Resources */,
+				6645E4461719C3E3003296DC /* YayaToure.jpeg in Resources */,
+				66136909171A56BE00F5EE7D /* Detail1ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66610CF11718DC6600331CA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66610D051718DC6800331CA4 /* main.m in Sources */,
+				66610D091718DC6900331CA4 /* AppDelegate.m in Sources */,
+				66FDD1CB1718E8DC00A3FD19 /* Player.m in Sources */,
+				66FDD1CE1718EC1D00A3FD19 /* Team.m in Sources */,
+				66FDD1D21718EE2400A3FD19 /* MainScreenVC.m in Sources */,
+				66FDD1D71718EE7400A3FD19 /* DetailViewController.m in Sources */,
+				66136907171A569C00F5EE7D /* Detail1ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		66610D011718DC6700331CA4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66610D021718DC6700331CA4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66610D161718DC7000331CA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		66610D171718DC7000331CA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66610D191718DC7000331CA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Football/Football-Prefix.pch";
+				INFOPLIST_FILE = "Football/Football-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		66610D1A1718DC7000331CA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Football/Football-Prefix.pch";
+				INFOPLIST_FILE = "Football/Football-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66610CF01718DC6500331CA4 /* Build configuration list for PBXProject "Football" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66610D161718DC7000331CA4 /* Debug */,
+				66610D171718DC7000331CA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66610D181718DC7000331CA4 /* Build configuration list for PBXNativeTarget "Football" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66610D191718DC7000331CA4 /* Debug */,
+				66610D1A1718DC7000331CA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66610CED1718DC6400331CA4 /* Project object */;
+}
